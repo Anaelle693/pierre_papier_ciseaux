@@ -5,11 +5,8 @@ body{
     /* background-position: ; */
     background-size: cover;
 }
-
-section{
-    padding: 3em; 
-} 
-h1{
+header h1{
+    padding: 0.5em;
     font-size: 3em;
     color: #173169;
 }
@@ -33,7 +30,7 @@ button:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 5em;
+    padding: 3em;
     font-weight: bold;
 }
 
@@ -63,5 +60,10 @@ button:hover{
 }
 .defaite{
     color: #c78e43;
+}
+footer p{
+    padding: 1em;
+    color: #173169;
+    font-weight: bold;
 }
 
