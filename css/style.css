@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+}
+
+section{
+    padding: 3em; 
+} 
+h1{
+    font-size: 3em;
+    color: #173169;
+}
+button{
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    font-size: 1.2em;
+    background-color: #173169;
+    color: #F2F2F2;
+}
+button:hover{
+    transition: 2s;
+    background-color:#F2F2F2 ;
+    color:#173169 ;
+}
+
+#ppc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5em;
+    font-weight: bold;
+}
+
+#ppc>h2{
+    color: #173169 ;
+    font-size: 2.5em;
+}
+
+#ppc>div>p{
+    font-size: 1.2em;
+}
+
+.choixUser{
+    color: teal;
+}
+.choixOrdi{
+    color: #c78e43;
+}
+.resultat{
+    color: #173169;
+}
+.victoire{
+    color: teal;
+}
+.egaux{
+    color: forestgreen;
+}
+.defaite{
+    color: #c78e43;
+}
+
